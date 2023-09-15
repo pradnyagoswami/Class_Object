@@ -29,7 +29,7 @@ namespace Class_Object
         public String Discount(double disprice)
         {
             price = price - ((price / 100) * disprice);
-            return $"id={id} price={price} name={name}";
+            return $"id={id} price={price} name={name}"; ;
         
         }
         public String Disply()
